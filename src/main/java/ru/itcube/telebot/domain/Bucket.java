@@ -9,6 +9,7 @@ public class Bucket {
 
     public Bucket(Person person) {
         this.person = person;
+        this.person.setBucket(this);
     }
 
     public Person getPerson() {
